@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    height: 600px;
+}
+
+#pageone {
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(2, 57, 57);
+}
