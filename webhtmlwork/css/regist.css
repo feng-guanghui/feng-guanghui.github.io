@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reg_header {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.reg_box {
+    /*设置整体的尺寸、背景色、边距等*/
+    width: 800px;
+    height: 520px;
+    border: 8px solid #eeeeee;
+    background: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.reg_left {
+    /*设置左浮动和外边距*/
+    float: left;
+    margin: 10px;
+}
+
+/*设置（新用户注册）颜色和字体大小*/
+.reg_left>p:first-child {
+
+    color: gray;
+    font-size: 20px;
+}
+
+/*设置（USER REGISTER）颜色和字体大小*/
+.reg_left>p:last-child {
+
+    color: #A6A6A6;
+    font-size: 20px;
+}
+
+/* 盒子大小 */
+.reg_center {
+    margin-top: 10px;
+    float: left;
+    width: 600px;
+}
+
+/*设置右边段落浮动和外间距*/
+.reg_right {
+
+    float: right;
+    margin: 30px;
+}
+
+
+/*设置超链接（立即登录）颜色*/
+.reg_right p a {
+    color: crimson;
+}
+
+/* 表单左边规格 */
+.td_left {
+    width: 120px;
+    text-align: right;
+    height: 40px;
+    padding-left: 20px;
+}
+
+/* 表单右边规格 */
+.td_right {
+    width: 450px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+/*设置输入框大小和边框*/
+#username,
+#password,
+#Email,
+#rename,
+#Telphone,
+#Birthday,
+#checkcode,
+#repassword {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #A4A4A4;
+    /* 设置边框为圆角 */
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+/*验证码宽度*/
+#checkcode {
+    width: 100px;
+    float: left;
+}
+
+/*设置 校验码*/
+.code {
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    white-space: normal;
+    float: left;
+    background: rgb(92, 80, 80) url();
+}
+
+
+
+.all a {
+    color: blue;
+    text-align: center;
+}
+
+
+/*注册按钮*/
+#btn_sub {
+    margin-left: 100px;
+    background: rgb(33, 30, 29);
+    color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+#btn_sub a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+/*重置按钮*/
+#reset {
+    margin-left: 40px;
+    background: rgb(33, 30, 29);
+    color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+#reset a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
