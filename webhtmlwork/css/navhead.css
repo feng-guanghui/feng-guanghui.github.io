@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    /* 网页背景颜色 */
+    background: #f1f2f3 url();
+}
+
+.box {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.head {
+    width: 1100px;
+    height: 110px;
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 1px 1px #13252c;
+    border-radius: 5px;
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+    width: 30;
+    height: 30px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.header_top {
+    height: 30px;
+    background: #436470;
+}
+
+.h_top_left {
+    color: gray;
+    font-size: 20px;
+    float: left;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.h_top_right {
+    color: gray;
+    font-size: 20px;
+    float: right;
+    height: 30px;
+}
+
+.h_top_right a {
+    display: block;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    background: #12738b;
+    float: right;
+    margin-top: 3px;
+    border-radius: 15px;
+    border: 1px;
+    color: #ffffff;
+    margin: 0 5px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.h_top_right a:hover {
+    color: black;
+}
+
+
+
+.sousuo {
+    background: #436470;
+    width: 1100px;
+    height: 40px;
+    float: left;
+    /* margin: auto; */
+}
+
+/* 搜索栏 */
+.t_input {
+    float: left;
+    width: 555px;
+    height: 40px;
+    border: 2px solid black;
+    margin: auto;
+    padding-left: 10px;
+    margin-left: 240px;
+}
+
+/* 搜索按钮 */
+.t_button {
+    width: 75px;
+    height: 40px;
+    border: 0px solid gray;
+    float: left;
+    color: orange;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* 导航栏设计 */
+.nav {
+
+    float: left;
+    width: 1100px;
+    height: 40px;
+    background: #436470;
+}
+
+.nav_li li {
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+
+.nav_li {
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.nav_li a {
+    display: block;
+    width: 60px;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    line-height: 40px;
+    /* float: left; */
+    color: azure;
+}
+
+.nav_li a:hover {
+    background: #ab6019;
+}
+
+.nav_li a:active {
+    background: black;
+}
+
+
+
+/* 轮播图图片制作 */
+#banner {
+    width: 1100px;
+    height: 500px;
+    /* border: 1px solid #000000; */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px #13252c;
+}
+
+#imglist {
+    width: 5500px;
+    height: 500px;
+
+}
+
+#imglist img {
+    width: 1100px;
+    height: 500px;
+}
+
+#imglist li {
+    float: left;
+}
+
+.prev {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 1px;
+    top: 224px;
+    cursor: pointer;
+}
+
+.next {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    right: 1px;
+    top: 224px;
+    cursor: pointer;
+}
+
+#icolist {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    margin: auto;
+}
+
+#icolist li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #666;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
